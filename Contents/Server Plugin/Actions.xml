@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Actions>
+  <Action id="refreshData">
+    <Name>Refresh data for all devices...</Name>
+    <CallbackMethod>refreshDataAction</CallbackMethod>
+  </Action>
+
+  <Action id="refreshDataForDev" deviceFilter="self">
+    <Name>Refresh data for device...</Name>
+    <CallbackMethod>refreshDataForDevAction</CallbackMethod>
+  </Action>
+  
+    <Action id="RemotePause" deviceFilter="self">
+    <Name>Pause</Name>
+    <CallbackMethod>RemotePause</CallbackMethod>
+  </Action>
+  
+      <Action id="RemotePlay" deviceFilter="self">
+    <Name>Play</Name>
+    <CallbackMethod>RemotePlay</CallbackMethod>
+  </Action>
+   
+   <Action id="RemotePlayPause" deviceFilter="self">
+    <Name>Play Pause Toggle</Name>
+    <CallbackMethod>RemotePlayPause</CallbackMethod>
+  </Action>
+      <Action id="RemoteStop" deviceFilter="self">
+    <Name>Stop</Name>
+    <CallbackMethod>RemoteStop</CallbackMethod>
+  </Action>
+  
+      <Action id="RemoteFastForward" deviceFilter="self">
+    <Name>FastForward</Name>
+    <CallbackMethod>RemoteFastForward</CallbackMethod>
+  </Action>
+  
+      <Action id="RemoteRewind" deviceFilter="self">
+    <Name>RemoteRewind</Name>
+    <CallbackMethod>RemoteRewind</CallbackMethod>
+  </Action>
+        <Action id="RemoteNextTrack" deviceFilter="self">
+    <Name>NextTrack</Name>
+    <CallbackMethod>RemoteNextTrack</CallbackMethod>
+  </Action>
+  
+      <Action id="RemotePreviousTrack" deviceFilter="self">
+    <Name>PreviousTrack</Name>
+    <CallbackMethod>RemotePreviousTrack</CallbackMethod>
+  </Action>
+  
+</Actions>
+
